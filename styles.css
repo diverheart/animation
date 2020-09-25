@@ -1,0 +1,178 @@
+body
+{
+	background-color: #ECE9F4;
+	padding:0;
+	margin: 0;
+}
+/*
+Section 1*/
+a
+{
+	font-size:18px;
+	margin-right:40px;
+}
+
+
+.product
+{
+	width:550px;
+	margin: 0;
+	position: fixed;
+	top:200px;
+	right:90px;
+}
+
+
+.shape
+{
+	position:absolute;
+	right:0;
+	top:0;
+}
+
+.navbar
+{
+	padding-left: 100px;
+}
+
+/*Animated Logo*/
+
+#logo
+{
+   position: absolute;
+   top:50%;
+   left:8%;
+   animation: fill 0.5s ease forwards 3.3s;
+}
+
+#one {
+stroke-dasharray:655;
+stroke-dashoffset:655;
+animation: anim 2s ease forwards;
+
+}
+
+#two {
+stroke-dasharray:446;
+stroke-dashoffset:446;
+animation: anim 2s ease forwards 0.3s;
+}
+
+#three{
+stroke-dasharray:318;
+stroke-dashoffset:318;
+animation: anim 2s ease forwards 0.6s;
+	}
+
+#four{
+stroke-dasharray:473;
+stroke-dashoffset:473;
+animation: anim 2s ease forwards 0.9s;
+	
+}
+
+#five{
+stroke-dasharray:283;
+stroke-dashoffset:283;
+animation: anim 2s ease forwards 1.2s;
+	}
+
+#six{
+stroke-dasharray:607;
+stroke-dashoffset:607;
+animation: anim 2s ease forwards 1.5s;
+	
+}
+
+#seven{
+stroke-dasharray:283;
+stroke-dashoffset:283;
+animation: anim 2s ease forwards 1.8s;
+	
+}
+
+#eight{
+stroke-dasharray:318;
+stroke-dashoffset:318;
+animation: anim 2s ease forwards 2.1s;
+	
+}
+
+#nine{
+stroke-dasharray:473;
+stroke-dashoffset:473;
+animation: anim 2s ease forwards 2.4s;
+	
+}
+
+#ten{
+stroke-dasharray:245.73391723632812;
+stroke-dashoffset:245.73391723632812;
+animation: anim 2s ease forwards 2.7s;
+}
+
+
+@keyframes anim{
+	to{
+		stroke-dashoffset:0;
+	}
+}
+
+@keyframes fill{
+
+	from {
+		fill:transparent;
+	}
+	to{
+		fill:#ed5052;
+	}
+}
+
+/*Section 2*/
+.section2{
+	margin-top: 300px;
+}
+
+/*Animated Woman*/
+
+#woman{
+	margin-top: 220px;
+	margin-bottom: 50px;
+}
+
+#move
+{
+	animation: banner 1s ease infinite;
+}
+
+@keyframes banner
+{
+	from{
+		transform:rotate(-1.5deg);
+	}
+
+	to{
+		transform:rotate(1deg);
+	}
+}
+
+
+/*Footer*/
+
+.footer
+{
+	background-color:#ee6f58;
+	text-align:left;
+	height:290px;
+	width:100%;
+	
+}
+
+h2
+{
+	padding-top:35px;
+	padding-left:30px;
+	font-size :9rem; 
+	font-family:'Sacramento', cursive ; 
+	color:#ECE9F4;
+}
